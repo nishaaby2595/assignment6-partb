@@ -36,6 +36,12 @@ $('#subsel').click(function(event){
     }
 });
 
+$('#subsel1').click(function(event){
+  resetModal();
+  $(mdl3).hide();
+
+});
+
 
 $('.close').click(function(){
   $(mdl1).hide();
