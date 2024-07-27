@@ -7,6 +7,7 @@ let clse=document.querySelector('.close');
 function resetModal() {
     $('#name').val(''); // Clear the input field
     $('#email').val('');
+    $('#phone').val('');
     $('#date').val('');
     $('#time').val('');
     $('#people').val('');
