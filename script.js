@@ -26,7 +26,7 @@ $('#subsel').click(function(event){
     event.preventDefault();//to make sure not to close the modal window on hitting submit button which is the default behaviour
     const name = $('#name').val();
     const email = $('#email').val();
-    const phone = $('phone'.val();
+    const phone = $('phone').val();
     const date = $('#date').val();
     const time = $('#time').val();
     const people = $('#people').val();
